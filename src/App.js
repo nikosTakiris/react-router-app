@@ -11,14 +11,18 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
+
       <div className="App">
+
       <Header />
 
-      <Route exact path="/" component={Home}></Route>
+      <Route exact path="/react-router-app/" component={Home}></Route>
       <Route path="/frontend" component={Frontend}></Route>
       <Route path="/backend" component={Backend}></Route>
       <Route path="/database" component={Databases}></Route>
+
       </div>
+
       </BrowserRouter>
     );
   }
