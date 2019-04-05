@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
     <ul className="navUl">
-    <NavLink exact to="/react-router-app/" className="navLink" activeClassName="active-nav">Home</NavLink>
+    <NavLink exact to="/" className="navLink" activeClassName="active-nav">Home</NavLink>
     <NavLink to="/frontend" className="navLink" activeClassName="active-nav">Frontend</NavLink>
     <NavLink to="/backend" className="navLink" activeClassName="active-nav">Backend</NavLink>
     </ul>
