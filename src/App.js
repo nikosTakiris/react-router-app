@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import Frontend from './components/Frontend';
@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-
+      <Switch>
       <div className="App">
 
       <Header />
@@ -22,7 +22,7 @@ class App extends Component {
       <Route path="/database" component={Databases}></Route>
 
       </div>
-
+      </Switch>
       </HashRouter>
     );
   }
